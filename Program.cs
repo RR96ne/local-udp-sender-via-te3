@@ -48,6 +48,11 @@ namespace LocalUdpSenderViaTE3
                     if (int.TryParse(strPort, out int parsedPort))
                     {
                         port = parsedPort;
+                        if (port > 65535 || port < 0)
+                        {
+                            Debug.WriteLine("無効なポート番号が指定されました。メッセージを送信しません。");
+                            return;
+                        }
                     }
                     else
                     {
