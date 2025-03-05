@@ -1,6 +1,6 @@
 # local-udp-sender-via-te3
 localhostに対し文字列をUDP送信するプログラム  
-ForgeのMod(<https://github.com/RR96ne/summon-by-udp-forge>)用に作りました。  
+ForgeのMod：[SummonByUdp](https://github.com/RR96ne/summon-by-udp-forge)用に作りました。  
 TanuEsa3での使用を想定しています。  
 
 ## 使い方
