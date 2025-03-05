@@ -6,7 +6,10 @@ TanuEsa3での使用を想定しています。
 ## 使い方
 ### ダウンロード
 [LocalUdpSenderViaTE3.zip](https://github.com/RR96ne/local-udp-sender-via-te3/releases/download/v1.0.0/LocalUdpSenderViaTE3.zip)をダウンロードし、任意の場所に解凍します。  
-中に`LocalUdpSenderViaTE3.exe`が入っています。
+中に`LocalUdpSenderViaTE3.exe`が入っています。  
+### 準備
+一度、`LocalUdpSenderViaTE3.exe`をダブルクリックして実行してみます。何もおこらなければ問題ありません。  
+もしWindowsDefenderの画面が起動して「WindowsによってPCが保護されました」などと表示された場合は、メッセージ内の「詳細情報」をクリックして表示される画面から、ファイルを実行します。
 ### TanuEsa3で使用する場合
 1. TanuEsa3のイベント設定→オペレーション一覧のでオペレーションを追加し、下の画面のタブのファイル実行を選びます。
 1. ファイル選択で`LocalUdpSenderViaTE3.exe`を選択します。
